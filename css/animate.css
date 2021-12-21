@@ -1,0 +1,36 @@
+/* Title animations*/
+.animation-name{animation-name: myName;animation-duration: 3s;animation-fill-mode: forwards;}
+
+@keyframes myName{
+	0% {transform: translateX(-50%);opacity: 0;}
+  100% {transform: translateX(0);opacity: 1;}
+}
+
+.animation-banner{animation-name: myBanner;animation-duration: 3s;animation-fill-mode: forwards;} 
+
+@keyframes myBanner{
+	0% {transform: translateY(1000%);opacity: 0;}
+  100% {transform: translateY(500%);opacity: 1;}
+}
+
+
+/* Scroll animations */
+.js-scroll {opacity: 0;transition: opacity 500ms;}
+ 
+.js-scroll.scrolled {opacity: 1;}
+
+.scrolled.slide-left {animation: slide-in-left 1s ease-in-out;}
+ 
+.scrolled.slide-right {animation: slide-in-right 1s ease-in-out;}
+ 
+@keyframes slide-in-left {
+	0% {transform: translateX(-50%);opacity: 0;}
+  100% {transform: translateX(0);opacity: 1;}
+}
+ 
+@keyframes slide-in-right {
+	0% {transform: translateX(50%);opacity: 0;}
+  100% {transform: translateX(0);opacity: 1;}
+}
+
+
