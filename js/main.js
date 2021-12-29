@@ -41,7 +41,7 @@ window.addEventListener("scroll", () => {
 
 
 const year = new Date().getFullYear();
-document.querySelector("#rights").innerHTML="© Copyright " + year + " angelf.ro";
+document.querySelector("#rights").innerHTML="© Copyright " + year + " Steciuc Angel Florentin";
 
 function onlineClick(){
   document.querySelector("#details").style.display="block";
