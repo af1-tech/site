@@ -1,0 +1,66 @@
+/* HTML Elements */
+html{scroll-behavior: smooth;}
+body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;background-size: 100% 100%;}
+
+/* Title Section*/
+.navigation-styles{background-image: url('../img/title-bg.png');background-repeat: no-repeat;background-size: 100% 100%;height: 100vh;width: 100%;} 
+.navigation-bar{padding:5vh 10vh 10vh;}
+.name{color: gray;font-family: 'Ephesis', cursive;font-size: 3.5rem;margin-top:10vh;margin-bottom:10vh;position: relative;text-align:center;}
+.banner{color: gray;font-family: 'Noto Serif', serif;font-size: 1.5rem;position: relative;text-align:center;}
+
+/* About me Section */
+#about{padding: 7% 15%;} 
+.me-pics {border-radius: 100%;height: 30vh;width: 15vw;}
+.description{font-family: 'Montserrat', sans-serif;font-size: 1.2rem;line-height: 3rem;text-indent: 3rem;text-align:justify;}
+
+/* Projects Section */
+#projects{background-color: #C8C6C6;padding: 5% 0%;text-align: center;}
+#projects h2{margin-bottom: 10%;}
+#projects a{display: block;}
+#online{display:none;}
+#app{display:none;}
+#other{display:none;}
+
+.bkg {	display:none;height:100%;width:100%;position:relative;background-color:rgba(52,73,94,0.5);border-radius:5px;}
+.bkg h2 {position:absolute;color:white;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+.image1{background-image: url('../img/online.jpg');background-repeat: no-repeat;background-size: 100% 100%;height: 20vh;width: 20vw; border-radius:5px;margin:7% 0%;cursor:pointer;transition:all .5s ease-in-out;}
+.image1:hover {transform: scale(1.2);}
+.image1:hover .bkg{display:block;}
+.image2{background-image: url('../img/aplicatii.jpg');background-repeat: no-repeat;background-size: 100% 100%;height: 20vh;width: 20vw;border-radius:5px;margin:7% 0%;cursor:pointer;transition:all .5s ease-in-out;}
+.image2:hover{transform: scale(1.2);}
+.image2:hover .bkg{display:block;}
+.image3{background-image: url('../img/lucru.jpg');background-repeat: no-repeat;background-size: 100% 100%;height: 20vh;width: 20vw;border-radius:5px;margin:7% 0%;cursor:pointer;transition:all .5s ease-in-out;}
+.image3:hover{transform: scale(1.2);}
+.image3:hover .bkg{display:block;}
+
+
+/* Projects Details Section */
+#details{display: none;background-color: #C8C6C6;}
+.prj-img{height: 20vh;width: 20vw;border-radius: 10%;margin-bottom:3%;}
+.prj-space{padding: 5% 15%;}
+
+
+/* Knowledge Section */
+#knowledge{padding: 3% 15%;text-align: center;}
+#knowledge h2{margin-bottom: 10%;}
+
+.knowledge-pics{height: 5rem;width: 5rem;}
+.knowledge-rows{padding: 3% 0;}
+.knowledge-description{font-family: 'Montserrat', sans-serif;font-size: 1.2rem;height: 10rem;}
+
+/* Contact Section */
+#contact{background-color: #C8C6C6;color:black;padding: 1% 15%;text-align:center;}
+#contact a {color:black;text-decoration:none;}
+#rights{color:gray;font-size:0.8rem;}
+
+.contact-me{
+	padding:3%;
+}
+
+
+@media (max-width:992px){
+	.name{font-size:2.5rem;}
+	.banner{font-size:1rem;}
+	.me-pics{padding-bottom:5%;width:30vw;}
+	.bkg {display:block;}
+}
