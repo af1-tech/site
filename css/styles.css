@@ -61,6 +61,6 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 @media (max-width:992px){
 	.name{font-size:2.5rem;}
 	.banner{font-size:1rem;}
-	.me-pics{padding-bottom:5%;width:30vw;}
+	.me-pics{padding-bottom:5%;width:30vw;height: auto;}
 	.bkg {display:block;}
 }
