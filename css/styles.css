@@ -76,7 +76,7 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 @media (min-width:576px) and (orientation:landscape){
 	.image1{width: 30vw;}
 	.image2{width: 30vw;}
-	.image3{width: 30vw;
+	.image3{width: 30vw;}
 }
 
 @media (min-width:768px) and (orientation:portrait){
