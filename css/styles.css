@@ -74,9 +74,9 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 }
 
 @media (min-width:576px) and (orientation:landscape){
-	.image1{height: 30vh;width: 30vw;}
-	.image2{height: 30vh;width: 30vw;}
-	.image3{height: 30vh;width: 30vw;}
+	.image1{height: 30vh;width: 20vw;}
+	.image2{height: 30vh;width: 20vw;}
+	.image3{height: 30vh;width: 20vw;}
 }
 
 @media (min-width:768px) and (orientation:portrait){
