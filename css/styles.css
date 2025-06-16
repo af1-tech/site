@@ -41,7 +41,7 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 
 
 /* Knowledge Section */
-#knowledge{padding: 6% 15%;text-align: center;}
+#knowledge{padding: 4% 15%;text-align: center;}
 #knowledge h2{margin-bottom: 10%;}
 
 .knowledge-pics{height: 5rem;width: 5rem;}
