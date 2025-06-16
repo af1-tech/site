@@ -68,12 +68,14 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 
 
 @media (min-width:576px),(orientation:portrait) {
+	#knowledge{padding: 20% 15%;}
 	.image1{width: 40vw;}
 	.image2{width: 40vw;}
 	.image3{width: 40vw;}
 }
 
 @media (min-width:576px) and (orientation:landscape){
+	#knowledge{padding: 10% 15%;}
 	.image1{height: 30vh;width: 20vw;}
 	.image2{height: 30vh;width: 20vw;}
 	.image3{height: 30vh;width: 20vw;}
