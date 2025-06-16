@@ -61,6 +61,7 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 /* media queries */
 @media (min-width:576px),(orientation:portrait) {
 	.me-pics{margin-bottom: 7%;}
+	.bkg{display: block;}
 	#knowledge{padding: 20% 15%;}
 	.image1{width: 25vw;}
 	.image2{width: 25vw;}
@@ -69,6 +70,7 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 }
 
 @media (min-width:576px) and (orientation:landscape){
+	.bkg{display: block;}
 	#knowledge{padding: 10% 15%;}
 	.image1{height: 30vh;width: 20vw;}
 	.image2{height: 30vh;width: 20vw;}
@@ -85,7 +87,7 @@ body{background-image: url('../img/about-bg.jpg');background-repeat: no-repeat;b
 }
 
 @media (min-width:992px){
-	
+	.bkg{display: none;}
 	.image1{height:30vh;width: 20vw;}
 	.image2{height:30vh;width: 20vw;}
 	.image3{height:30vh;width: 20vw;}
